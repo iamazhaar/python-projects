@@ -1,12 +1,12 @@
 
 def madlib():
-    adj     = input("Enter an adjective: ")
-    animal  = input("Enter the name of your favourite animal: ")
-    adj1    = input("Enter an adjective: ")
-    animal1 = input("Enter the name of an animal: ")
-    verb    = input("Enter a verb ending with _ing: ")
-    noun    = input("Enter a noun: ")
-    noun1   = input("Enter a noun: ")
+    adj     = input("Enter an adjective: ").lower()
+    animal  = input("Enter the name of your favourite animal: ").capitalize()
+    adj1    = input("Enter an adjective: ").lower()
+    animal1 = input("Enter the name of an animal: ").capitalize()
+    verb    = input("Enter a verb ending with _ing: ").lower()
+    noun    = input("Enter a noun: ").lower()
+    noun1   = input("Enter a noun: ").lower()
 
     madlib = f'''The Unlikely Romance of a {adj} {animal}:
 

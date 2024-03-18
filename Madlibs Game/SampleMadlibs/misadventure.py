@@ -1,8 +1,8 @@
 
 def madlib():
-    name  = input("Enter a name: ")
+    name  = input("Enter a name: ").title()
     noun1 = input("Enter a noun: ")
-    adj   = input("Enter an adjective: ")
+    adj   = input("Enter an adjective: ").lower()
     noun2 = input("Enter a noun: ")
     noun3 = input("Enter a noun: ")
     noun4 = input("Enter a noun: ")
