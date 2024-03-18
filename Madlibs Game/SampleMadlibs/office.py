@@ -1,12 +1,10 @@
 
 def madlib():
-    noun1 = input("Enter a noun: ")
-    noun2 = input("Enter a noun: ")
-    noun3 = input("Enter a noun: ")
+    noun1 = input("Enter a noun: ").lower()
+    noun2 = input("Enter a noun: ").lower()
 
     madlib = f'''The Hilarious Office Memo:
-          
-The boss sent out a memo demanding that all employees must bring {noun1} to the next meeting. However, instead of {noun2}, everyone brought {noun3} and chaos ensued!'''
-    
-    print(madlib)
+The boss sent out a memo demanding that all employees must bring {noun1} to the next meeting. However,
+instead of {noun1},everyone brought {noun2} and chaos ensued!'''
 
+    print(madlib)
